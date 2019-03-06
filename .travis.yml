@@ -2,8 +2,9 @@ language: ruby
 rvm:
 - 2.5.1
 
-script:
-	- bundle exec rake db:create
+before_script:
+	-bundle exec rake db:create
+	-bundle exec rake db:migrate
 deploy:
   provider: heroku
   api_key:
