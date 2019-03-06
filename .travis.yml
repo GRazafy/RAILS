@@ -5,3 +5,6 @@ deploy:
   provider: heroku
   api_key:
     secure: "40eaf40f-8cc2-4656-a2fe-d88ce56a9535"
+
+before_script:
+	- rake db:create
