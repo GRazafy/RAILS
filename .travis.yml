@@ -14,3 +14,4 @@ deploy:
   app: RAILS
   on:
     repo: GRazafy/RAILS
+  run: "rails db:migrate"
