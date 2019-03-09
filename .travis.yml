@@ -11,7 +11,7 @@ deploy:
   provider: heroku
   api_key:
     secure: Cx0SfS931XuIETHLlplJ3VNtqqsFsQ8H258fkyrKDopJw+YkCLyyY4N0LAvcqvlUqzGFk0gvPHmlqFkoziBgjLZGhOpw+zdAo99VmrWMPpERx5xn/VOtqtky5V7b2V6lJ1ownWEC0WATyCGraH82e+JotnRU1qOliv05b4YJU4mpSSPHD8OFbdfHwZsY9SVyIoWAddqWsnKNyjeLK9XkF1rw2ev0M/uXVSAZcTWVR5poJ3hPNvFI0016UNHCkq+0KJaCzV0xE5oau/Q2hySmel5Cqx54JddIdCHna3fTXbnt2U8QhXscKoSuXRZ8vkGTCfwK2I+Fbo0m7pLS1eImKVyqH56h1Rg670SnWo96OOKOc98m2HImG04tULqtnVYuj5GDGEWneA+Wvjxh7ynkqmzakUe9+n1IkVUVeUjsdrU+SUE/ajur1+uNt9NjzGzC8+M/mu37y8O+wDBrUBZJOst3rXne4ccc1hjuOv2Zf8yngQRg3iK2NYrPQzkSVGrLYctKg85biIB5zaYeLrAqEWK0ffYu3Enf6rq2PabmT7AI92EU/SbKT0gT14JgvLHfiy/el2CFWGWxW4fj8003ZJp3Rh9KRfqEBTY7EbugkJkBfF1N4grJ1YXAQJdR/B1mcKuWrwPyk+e8EBK/J8rayFqdEYGt1QL54r8Jn0aifb8=
-  app: RAILS
+  app: lpa2razafindratsima
   on:
     repo: GRazafy/RAILS
   run: "rails db:migrate"
