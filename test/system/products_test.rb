@@ -14,6 +14,7 @@ class ProductsTest < ApplicationSystemTestCase
     visit products_url
     click_on "New Product"
 
+    fill_in "Description", with: @product.description
     fill_in "Name", with: @product.name
     fill_in "Price", with: @product.price
     fill_in "Thumbnail", with: @product.thumbnail
@@ -27,6 +28,7 @@ class ProductsTest < ApplicationSystemTestCase
     visit products_url
     click_on "Edit", match: :first
 
+    fill_in "Description", with: @product.description
     fill_in "Name", with: @product.name
     fill_in "Price", with: @product.price
     fill_in "Thumbnail", with: @product.thumbnail
